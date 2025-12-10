@@ -1,9 +1,9 @@
-基于傅里叶变换和神经网络的音频分类器
-技术说明：
-将数据处理成梅尔频谱图
-共四个模型，cnn，cnn+lstm，cnn+transformer，ast
-数据集和部分模型参数太大，数据集自行下载，模型参数提供cnn作为示例，其余可以自己训练测试
-运行main.py --help可得到运行指令详情
+# 基于傅里叶变换和神经网络的音频分类器
+## 技术说明：
+将数据处理成梅尔频谱图  
+共四个模型，cnn，cnn+lstm，cnn+transformer，ast  
+数据集和部分模型参数太大，数据集自行下载，模型参数提供cnn作为示例，其余可以自己训练测试  
+## 运行main.py --help可得到运行指令详情：
 options:
   -h, --help            show this help message and exit
   --fold FOLD           交叉验证折数，默认1
